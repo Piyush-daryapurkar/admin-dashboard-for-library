@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boss{
+    display: flex;
+
+}
+.dash{
+    height: auto;
+    width: 260px;
+    background-color: rgb(19, 113, 113);
+    justify-content: center;
+    justify-items: center;  
+    background-image: url("c:\Users\Piyush\Downloads\undraw_statistic_chart_re_w0pk.svg");
+}
+a{
+    text-decoration: none;
+
+}
+.is {:hover{
+    color: black;
+}}
+.logo{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: rgb(10, 8, 8);
+
+    p{
+        color: rgb(16, 17, 17);
+        font-size: small;
+    }
+    span{
+        color: rgb(232, 242, 245);
+    }
+    i{
+        color: black;
+    }
+}
+
+
+
+.cont{
+    height: 100%;
+    width: 260px;
+    justify-content: space-between;
+    display:inline-table;
+    justify-items: center;
+    cursor: pointer;
+
+    
+
+    span{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: 40px;
+        padding: 25px,0px;
+        gap: 20px;
+        font-size: larger;
+        color: white;
+        border: 20px;
+        
+    }
+}
+
+/* table */
+.hero{
+    display: flex;
+}
+.tab{
+    width: 100%;
+    height: 100%;
+    display: table;
+    display: flexbox;
+    margin-top: 40px;
+    
+
+
+
+    th{
+        height: 45px;
+        width: 120px;
+        border: 1px solid black;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display:flexbox;
+        border-radius:5px;
+        background-color: rgb(31, 121, 121) ;
+        color: white;
+        font-size: larger;
+    }
+    h1{
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        width: 300px;
+        padding: 5px;
+        background-color: rgb(4, 140, 140) ;
+        color: white;
+        border-radius: 10px;
+        margin-left: 440px;
+        margin-bottom: 20px;
+
+    }
+    
+        td{
+            height: 40px;
+            width: 120px;
+            border: .5px solid black;
+            justify-content: space-between;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            display:flexbox;
+            border-radius:2px;
+            background-color: rgb(224, 237, 237);
+            font-size: medium;
+            text-align: center;
+        }
+
+}
+
+
+
+.form{
+    height: 85vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 400px;
+
+
+    input{
+        height: 40px;
+        width: 400px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+
+    }
+    select{
+        height: 55px;
+        width: 416px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+
+    }
+    button{
+        height: 40px;
+        width: 200px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(4, 140, 140) ;
+        font-size: medium;
+        margin-left: 130px;
+    }
+    h1{
+        height: 40px;
+        width: 420px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        background-color: rgb(4, 140, 140) ;
+
+    }
+    .btn{
+        margin-right: 140px;
+        margin-top: 10px;
+    }
+}

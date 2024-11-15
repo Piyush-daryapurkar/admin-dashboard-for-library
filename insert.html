@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insert.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="boss">
+    <div class="dash">
+        <div class="logo">
+            <h1><span>PiYu</span>sH <span>Libr</span>arY</h1>
+            <p>Keep Learning...</p>
+        </div><hr width="235px" style="margin:10px; color:red;">
+            <div class="cont">
+                <a class="is" href="admin.html" ><div class="div"><span><i class="fa-solid fa-house"></i>Home</span></div></a>
+                <a class="is" href="table.html"><div class="div"><span><i class="fa-solid fa-table"></i>Table</span></div></a>
+                <a class="is"  href="insert.html"><div class="div"><span><i class="fa-solid fa-arrow-right-to-bracket"></i>Insert</span></div></a>
+                <a class="is" href="books.html"><div class="div"><span><i class="fa-solid fa-book"></i>Books </span></div></a>
+                <a class="is" href="#"><div class="div"><span><i class="fa-solid fa-arrow-rotate-left"></i>Return</span></div></a>
+                <a class="is" href="#"><div class="div"><span><i class="fa-solid fa-bug"></i>Reports</span></div></a>
+                <a class="is" href="#"><div class="div"><span><i class="fa-solid fa-gear"></i>Settings</span></div></a>
+                <a class="is" href="signup.html"> <div class="div"><span><i class="fa-solid fa-right-from-bracket"></i>Logout</span></div></a>
+            </div>
+
+     
+    </div>
+    <div class="hero">
+        <div class="insert">
+            <form action="" class="form" onsubmit="return insData()">
+                <h1>Insert New Data</h1>
+             
+                <label for="name"> Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+                <input type="text" id="name" placeholder="Enter Your Name"><br>
+
+                <label for="number">Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="number" placeholder="Enter Your Contact" ><br>
+
+                <label for="gender">Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="gender" id="gender" >
+                    <option value="">Please select one… </option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="non-binary">Non-Binary</option>
+                    <option value="other">Other</option>
+                    <option value="Prefer not to answer">Perfer not to Answer</option>
+              </select><br>
+
+                <label for="start_date">start date&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="start_date" ><br>
+
+                <label for="end_date">End date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="end_date" ><br>
+
+    
+                <label for="shift">Shift&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="select" id="shift">
+                    <option >Please Select Shift</option>
+                    <option >Morning</option>
+                    <option >Evening</option>
+                    <option >Night</option>
+                    <option>Full Time</option>
+    
+                </select><br>
+
+                <label for="seat">Seat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="seat" placeholder="Enter Your Seat Number"><br>
+
+                <label for="address">Addeess&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="address" placeholder="Enter Your Address" ><br>
+
+
+                <div class="btn">
+                    <button type="submit">Insert Data</button>
+                </div>
+            </form>
+            
+        <!-- <form action=""  onsubmit="return insert()">
+            <h1>Insert Library's data Library</h1>
+
+            <label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter Your Name" id="name"><br><br>
+
+            <label for="text">Number&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" placeholder="Enter Your Number" id="number"><br><br>
+
+            <label for="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+         <select name="gender" id="gender">
+               <option value="">Please select one…</option>
+               <option value="female">Female</option>
+               <option value="male">Male</option>
+               <option value="non-binary">Non-Binary</option>
+               <option value="other">Other</option>
+               <option value="Prefer not to answer">Perfer not to Answer</option>
+         </select><br><br>
+
+            <label for="start_date">Start Date</label>
+            <input type="date" placeholder="Membership Start Date" id="start_date"><br><br>
+
+            <label for="end_date">End Date&nbsp;&nbsp;</label>
+            <input type="date" placeholder="Membership End Date" id="end_date"><br><br>
+
+            <label for="shift">Shift&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="select" id="" id="shift">
+                <option >Please Select Shift</option>
+                <option >Morning</option>
+                <option >Evening</option>
+                <option >Night</option>
+                <option>Full Time</option>
+
+            </select><br><br>
+
+            <label for="seat">Seat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter Your Seet Number" id="seat"><br><br>
+
+            <label for="address">Address&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter Your Address" id="address"><br><br>
+
+            <div class="btn">
+                <button type="submit">Insert</button>
+            </div>
+
+
+        </form> -->
+        </div>
+        
+
+
+
+                
+    </div>
+
+
+</div>
+
+</div>
+
+
+<script src="admin.js"></script>
+
+
+
+
+    
+</body>
+</html>

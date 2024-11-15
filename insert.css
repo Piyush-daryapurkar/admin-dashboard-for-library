@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boss{
+    display: flex;
+
+}
+.dash{
+    height: auto;
+    width: 260px;
+    background-color: rgb(19, 113, 113);
+    justify-content: center;
+    justify-items: center;  
+    background-image: url("c:\Users\Piyush\Downloads\undraw_statistic_chart_re_w0pk.svg");
+}
+a{
+    text-decoration: none;
+
+}
+.is {:hover{
+    color: black;
+}}
+.logo{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: rgb(10, 8, 8);
+
+    p{
+        color: rgb(16, 17, 17);
+        font-size: small;
+    }
+    span{
+        color: rgb(232, 242, 245);
+    }
+    i{
+        color: black;
+    }
+}
+
+
+
+.cont{
+    height: 100%;
+    width: 260px;
+    justify-content: space-between;
+    display:inline-table;
+    justify-items: center;
+    cursor: pointer;
+
+    
+
+    span{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: 40px;
+        padding: 25px,0px;
+        gap: 20px;
+        font-size: larger;
+        color: white;
+        border: 20px;
+        
+    }
+}
+
+
+.hero{
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+.insert{
+    border: 2px solid black;
+    height: 85vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    border-style: dashed;
+
+
+    input{
+        height: 40px;
+        width: 400px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+
+    }
+    select{
+        height: 55px;
+        width: 416px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 5px;
+
+    }
+    button{
+        height: 40px;
+        width: 200px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(4, 140, 140) ;
+        font-size: medium;
+        margin-left: 130px;
+    }
+    h1{
+        height: 40px;
+        width: 420px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        background-color: rgb(4, 140, 140) ;
+
+    }
+    .btn{
+        margin-right: 140px;
+        margin-top: 10px;
+    }
+}

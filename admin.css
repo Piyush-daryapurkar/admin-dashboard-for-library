@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boss{
+    display: flex;
+
+}
+.dash{
+    height: 100vh;
+    width: 260px;
+    background-color: rgb(19, 113, 113);
+    justify-content: center;
+    justify-items: center;  
+}
+a{
+    text-decoration: none;   
+}
+.is {:hover{
+    color: black;
+}}
+
+.logo{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: rgb(10, 8, 8);
+
+    p{
+        color: rgb(16, 17, 17);
+        font-size: small;
+    }
+    span{
+        color: rgb(232, 242, 245);
+    }
+    i{
+        color: black;
+    }
+}
+
+
+
+.cont{
+    height: 100%;
+    width: 260px;
+    justify-content: space-between;
+    display:inline-table;
+    justify-items: center;
+    cursor: pointer;
+
+    
+
+    span{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: 40px;
+        padding: 25px,0px;
+        gap: 20px;
+        font-size: larger;
+        color: white;
+        border: 20px;
+        
+    }
+}
+.display{
+        height: 180px;
+        width: 90%;
+        display: flex;
+}
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display:flex;
+
+
+}
+.box1{
+    height: 100px;
+    width: 220px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(95, 199, 199);
+    margin:20px;
+    margin-top: 60px;
+    border-radius: 9px;
+
+    .pa{
+        color: rgb(27, 40, 36);
+        margin-top: 4px;
+    }
+
+    img{
+        display: flex;
+        height: 40px;
+    }
+    span{
+        font-size: 23px;
+    }
+    p{
+        font-size: small;
+        color: red;
+        align-items: center;
+    }
+    hr{margin-top: 7px;}
+}
+
+.main2{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display:flex;
+
+
+}
+.box2{
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgb(95, 199, 199);
+    margin:20px;
+    margin-top: 60px;
+    border-radius: 9px;
+    margin-left: 110px;
+
+    .pa{
+        color: rgb(27, 40, 36);
+        margin-top: 4px;
+    }
+
+    img{
+        display: flex;
+        height: 40px;
+    }
+    span{
+        font-size: 23px;
+    }
+    p{
+        font-size: small;
+        color: red;
+        align-items: center;
+    }
+    hr{margin-top: 7px;}
+}
+
+.img{
+    height: 72%;
+    width: 100%;
+    justify-content: space-between;
+
+
+    .image{
+        width: 500px;
+        height: 500px;
+        margin-left: 40px;
+    }
+
+}
+
+  

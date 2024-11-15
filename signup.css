@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boss{
+    display: flex;
+
+}
+.dash{
+    height: 100vh;
+    width: 260px;
+    background-color: rgb(19, 113, 113);
+    justify-content: center;
+    justify-items: center;  
+}
+a{
+    text-decoration: none;   
+}
+.is {:hover{
+    color: black;
+}}
+
+.logo{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: rgb(10, 8, 8);
+
+    p{
+        color: rgb(16, 17, 17);
+        font-size: small;
+    }
+    span{
+        color: rgb(232, 242, 245);
+    }
+    i{
+        color: black;
+    }
+}
+
+
+
+.cont{
+    height: 100%;
+    width: 260px;
+    justify-content: space-between;
+    display:inline-table;
+    justify-items: center;
+    cursor: pointer;
+
+    
+
+    span{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: 40px;
+        padding: 25px,0px;
+        gap: 20px;
+        font-size: larger;
+        color: white;
+        border: 20px;
+        
+    }
+}
+.display{
+        height: 180px;
+        width: 90%;
+        display: flex;
+}
+.main{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    display:flex;
+
+}
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero * {
+    z-index: 20;
+  }
+  
+
+  #sign{
+    color:black;
+  }
+  
+  
+  .hero .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .hero .main h1 {
+    font-size: 30px;
+    width: 300px;
+    color: rgb(18, 1, 1);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(19, 113, 113);
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  label{
+    color: black;
+    font-size: large;
+    font-weight: 100;
+  }
+  #password{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 260px;
+    height: 42px;
+    padding: 12px;
+  }#email{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 260px;
+    height: 42px;
+    padding: 12px;
+  
+  
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    margin-right:480px;
+  }
+  
+  .login div {
+    padding: 50px;
+    background-color: rgb(113, 159, 159);
+    border: transparent;
+    border-radius: 50px;
+  
+  
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0px;
+        margin:10px;
+  
+        button{
+            padding: 8px 10px;
+            font-size: 16px;
+            background-color: rgb(19, 113, 113);
+            color: white;
+            border:transparent;
+            border-radius: 50px;
+            width: 200px;
+  
+          
+        }
+    }
+  }
+  
+  
+  
+  .login div input {
+    border: transparent;
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .login div a {
+    color: rgb(245, 40, 40);
+    text-decoration: none;
+  }
+  
+  .login div a:hover {
+    color: #944101;
+  }
+.h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 60px;
+    width: 140px;
+    background-color: rgb(19, 113, 113);
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
